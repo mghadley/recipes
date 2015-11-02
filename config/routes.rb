@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'application#hello'
-  get pages/home
+  get 'pages/home'
   
 
   # Example of regular route:
